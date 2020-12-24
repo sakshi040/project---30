@@ -73,8 +73,8 @@ function setup(){
     SlingShot1=new SlingShot(polygon.body,{x:50,y:200})
 
     ground1=new Ground(600,650,1200,20)
-    ground2=new Ground(470,500,260,20)
-    ground3=new Ground(960,250,200,20)
+    ground2=new Ground(470,250,260,20)
+    ground3=new Ground(960,150,200,20)
    
 }
 
