@@ -39,19 +39,19 @@ function setup(){
     block7=new Box(570,225,30,40)
 
      //level 2
-    block8=new Box(420,175,30,40)
-    block9=new Box(450,175,30,40)
-    block10=new Box(480,175,30,40)
-    block11=new Box(510,175,30,40)
-    block12=new Box(540,175,30,40)
+    block8=new Box(430,175,30,40)
+    block9=new Box(460,175,30,40)
+    block10=new Box(490,175,30,40)
+    block11=new Box(520,175,30,40)
+    block12=new Box(550,175,30,40)
 
     // //level 3
-    block13=new Box(450,145,30,40)
-    block14=new Box(480,145,30,40)
-    block15=new Box(510,145,30,40)
+    block13=new Box(460,145,30,40)
+    block14=new Box(490,145,30,40)
+    block15=new Box(520,145,30,40)
 
     // //level 4
-    block16=new Box(480,105,30,40)
+    block16=new Box(490,105,30,40)
 
     // //level 5
     block17=new Box(900,100,30,40)
@@ -73,7 +73,7 @@ function setup(){
     SlingShot1=new SlingShot(polygon.body,{x:50,y:200})
 
     ground1=new Ground(600,650,1200,20)
-    ground2=new Ground(470,250,260,20)
+    ground2=new Ground(490,250,260,20)
     ground3=new Ground(960,150,200,20)
    
 }
@@ -124,6 +124,6 @@ function setup(){
 
     function keyPressed(){
         if(keyCode===32){
-     SlingShot1.attach(this.polygon)
+     SlingShot1.attach(polygon.body)
         }
     }
